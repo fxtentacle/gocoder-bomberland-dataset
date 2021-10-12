@@ -1,0 +1,5678 @@
+{
+    "type": "endgame_state",
+    "payload": {
+        "initial_state": {
+            "agents": {
+                "a": {
+                    "agent_id": "a",
+                    "unit_ids": [
+                        "c",
+                        "e",
+                        "g"
+                    ]
+                },
+                "b": {
+                    "agent_id": "b",
+                    "unit_ids": [
+                        "d",
+                        "f",
+                        "h"
+                    ]
+                }
+            },
+            "unit_state": {
+                "c": {
+                    "coordinates": [
+                        4,
+                        13
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "c",
+                    "agent_id": "a",
+                    "invulnerability": 0
+                },
+                "d": {
+                    "coordinates": [
+                        10,
+                        13
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "d",
+                    "agent_id": "b",
+                    "invulnerability": 0
+                },
+                "e": {
+                    "coordinates": [
+                        5,
+                        8
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "e",
+                    "agent_id": "a",
+                    "invulnerability": 0
+                },
+                "f": {
+                    "coordinates": [
+                        9,
+                        8
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "f",
+                    "agent_id": "b",
+                    "invulnerability": 0
+                },
+                "g": {
+                    "coordinates": [
+                        13,
+                        8
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "g",
+                    "agent_id": "a",
+                    "invulnerability": 0
+                },
+                "h": {
+                    "coordinates": [
+                        1,
+                        8
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "h",
+                    "agent_id": "b",
+                    "invulnerability": 0
+                }
+            },
+            "entities": [
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 4,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 4,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 4,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 4,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 14,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 14,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 3,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 3,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 0,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 0,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 7,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 7,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 1,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 1,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 8,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 8,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 0,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 0,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 13,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 13,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 13,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 13,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 13,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 13,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 0,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 0,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 12,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 12,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 0,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 0,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 10,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 10,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 6,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 6,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 14,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 14,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 3,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 3,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 2,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 2,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 14,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 14,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 5,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 5,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 11,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 11,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 2,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 2,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 14,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 14,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 6,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 6,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 0,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 0,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 3,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 3,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 14,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 14,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 6,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 6,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 5,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 5,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 4,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 4,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 12,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 12,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 14,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 14,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 5,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 5,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 12,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 12,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 5,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 5,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 10,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 10,
+                    "type": "o",
+                    "hp": 3
+                }
+            ],
+            "world": {
+                "width": 15,
+                "height": 15
+            },
+            "tick": 0,
+            "config": {
+                "tick_rate_hz": 10,
+                "game_duration_ticks": 300,
+                "fire_spawn_interval_ticks": 2
+            }
+        },
+        "history": [
+            {
+                "tick": 1,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "e"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "g"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 2,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 2,
+                            "x": 10,
+                            "y": 14,
+                            "type": "b",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 42,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                10,
+                                14
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "h"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "g"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 3,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 3,
+                            "x": 4,
+                            "y": 11,
+                            "type": "b",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 43,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                4,
+                                11
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "h"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "g"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 4,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "e"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "h"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "g"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 5,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "h"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "g"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 6,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "g"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 8,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "detonate",
+                            "coordinates": [
+                                10,
+                                14
+                            ],
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            10,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 8,
+                            "x": 10,
+                            "y": 14,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 18
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 8,
+                            "x": 10,
+                            "y": 13,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 18
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            9,
+                            14
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 9,
+                            "y": 14,
+                            "type": "w",
+                            "hp": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            9,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            11,
+                            14
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 11,
+                            "y": 14,
+                            "type": "w",
+                            "hp": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            11,
+                            14
+                        ]
+                    }
+                ]
+            },
+            {
+                "tick": 9,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "detonate",
+                            "coordinates": [
+                                4,
+                                11
+                            ],
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            4,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 9,
+                            "x": 4,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 19
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 9,
+                            "x": 4,
+                            "y": 12,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 19
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            4,
+                            10
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 4,
+                            "y": 10,
+                            "type": "w",
+                            "hp": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            4,
+                            10
+                        ]
+                    }
+                ]
+            },
+            {
+                "tick": 18,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            10,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            10,
+                            13
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 19,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            4,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            4,
+                            12
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 20,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 21,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 21,
+                            "x": 9,
+                            "y": 14,
+                            "type": "b",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 61,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                9,
+                                14
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 22,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 23,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 24,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 27,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "detonate",
+                            "coordinates": [
+                                9,
+                                14
+                            ],
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            9,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 27,
+                            "x": 9,
+                            "y": 14,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 37
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            8,
+                            14
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 8,
+                            "y": 14,
+                            "type": "w",
+                            "hp": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 27,
+                            "x": 10,
+                            "y": 14,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 37
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 37,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            9,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            10,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 38,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 39,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 39,
+                            "x": 7,
+                            "y": 14,
+                            "type": "bp",
+                            "expires": 79,
+                            "hp": 1
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 40,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "e"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "h"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "g"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 40,
+                            "x": 7,
+                            "y": 8,
+                            "type": "b",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 80,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                8
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "e",
+                            "agent_id": "a",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 40,
+                            "x": 6,
+                            "y": 8,
+                            "type": "b",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 80,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                8
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "h",
+                            "agent_id": "b",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 40,
+                            "x": 8,
+                            "y": 7,
+                            "type": "b",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 80,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                8,
+                                7
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 41,
+                "events": [
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                14
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 5,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 51,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 51,
+                            "x": 7,
+                            "y": 2,
+                            "type": "a",
+                            "expires": 91,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 52,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 53,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "e"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 54,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "e"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 55,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 56,
+                "events": [
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                2
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 4
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "f",
+                            "agent_id": "b",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            2
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 57,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 58,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 59,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 67,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 67,
+                            "x": 7,
+                            "y": 12,
+                            "type": "a",
+                            "expires": 107,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 68,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 68,
+                            "x": 7,
+                            "y": 11,
+                            "type": "b",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 108,
+                            "hp": 1,
+                            "blast_diameter": 5
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                11
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 5,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 69,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "e"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 69,
+                            "x": 7,
+                            "y": 10,
+                            "type": "b",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 109,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                10
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "e",
+                            "agent_id": "a",
+                            "invulnerability": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 70,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "h"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 70,
+                            "x": 6,
+                            "y": 10,
+                            "type": "b",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 110,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                10
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "h",
+                            "agent_id": "b",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 71,
+                "events": [
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                12
+                            ],
+                            "hp": 3,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 5,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            12
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "detonate",
+                            "coordinates": [
+                                6,
+                                8
+                            ],
+                            "unit_id": "h"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 6,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 81
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 6,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 81
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 6,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 81
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 5,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 81
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            7,
+                            8
+                        ],
+                        "updated_entity": {
+                            "created": 40,
+                            "x": 7,
+                            "y": 8,
+                            "type": "b",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 80,
+                            "hp": 0,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 7,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 81
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                9
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "e",
+                            "agent_id": "a",
+                            "invulnerability": 76
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 7,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 81
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 7,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 81
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 6,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 81
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 8,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 81
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 72,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 72,
+                            "x": 9,
+                            "y": 14,
+                            "type": "a",
+                            "expires": 112,
+                            "hp": 1
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 75,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "detonate",
+                            "coordinates": [
+                                7,
+                                10
+                            ],
+                            "unit_id": "e"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 7,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            7,
+                            11
+                        ],
+                        "updated_entity": {
+                            "created": 68,
+                            "x": 7,
+                            "y": 11,
+                            "type": "b",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 108,
+                            "hp": 0,
+                            "blast_diameter": 5
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 7,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                12
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 5,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 80
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 7,
+                            "y": 12,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 7,
+                            "y": 13,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 7,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 7,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                11
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "h",
+                            "agent_id": "b",
+                            "invulnerability": 80
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 6,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 8,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 7,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            6,
+                            10
+                        ],
+                        "updated_entity": {
+                            "created": 70,
+                            "x": 6,
+                            "y": 10,
+                            "type": "b",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 110,
+                            "hp": 0,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 6,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 6,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 6,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            5,
+                            10
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 5,
+                            "y": 10,
+                            "type": "o",
+                            "hp": 2
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 7,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 85
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 75,
+                            "x": 8,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 85
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 76,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 77,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 78,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 79,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 80,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                8,
+                                7
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 85
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 80,
+                            "x": 8,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 90
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 80,
+                            "x": 8,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 90
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            8,
+                            6
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 8,
+                            "y": 6,
+                            "type": "w",
+                            "hp": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            6
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 80,
+                            "x": 7,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 90
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            9,
+                            7
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 9,
+                            "y": 7,
+                            "type": "w",
+                            "hp": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            9,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 81,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            5,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                8,
+                                8
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "h",
+                            "agent_id": "b",
+                            "invulnerability": 86
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "h"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 82,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "g"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 82,
+                            "x": 8,
+                            "y": 7,
+                            "type": "b",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 122,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                8,
+                                7
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 85
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 82,
+                            "x": 8,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 92
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 82,
+                            "x": 8,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 92
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                8,
+                                6
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 4
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "f",
+                            "agent_id": "b",
+                            "invulnerability": 87
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 82,
+                            "x": 8,
+                            "y": 6,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 92
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 82,
+                            "x": 7,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 92
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 82,
+                            "x": 9,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 92
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 82,
+                            "x": 8,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 92
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 83,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "g"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 84,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "g"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 85,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            12
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            13
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 86,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 86,
+                            "x": 7,
+                            "y": 7,
+                            "type": "b",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 126,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                7
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "f",
+                            "agent_id": "b",
+                            "invulnerability": 87
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 86,
+                            "x": 7,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 96
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 86,
+                            "x": 7,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 96
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 86,
+                            "x": 7,
+                            "y": 6,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 96
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                7
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 91
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 86,
+                            "x": 6,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 96
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 86,
+                            "x": 8,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 96
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 86,
+                            "x": 7,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 96
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 87,
+                "events": [
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                9,
+                                14
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 5,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 80
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            9,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                8
+                            ],
+                            "hp": 0,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "h",
+                            "agent_id": "b",
+                            "invulnerability": 92
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "h"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "g"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 7,
+                            "y": 8,
+                            "type": "b",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 127,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                8
+                            ],
+                            "hp": 0,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "h",
+                            "agent_id": "b",
+                            "invulnerability": 92
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 7,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                9
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "e",
+                            "agent_id": "a",
+                            "invulnerability": 92
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 7,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 7,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                8
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 92
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 6,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 8,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "h",
+                            "agent_id": "b",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 7,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 6,
+                            "y": 7,
+                            "type": "b",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 127,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                7
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 91
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 6,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 6,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            6,
+                            6
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 6,
+                            "y": 6,
+                            "type": "w",
+                            "hp": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            6
+                        ]
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            5,
+                            7
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 5,
+                            "y": 7,
+                            "type": "w",
+                            "hp": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            5,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 7,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "g",
+                            "agent_id": "a",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 87,
+                            "x": 6,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 97
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 88,
+                "events": [
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                6
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "f",
+                            "agent_id": "b",
+                            "invulnerability": 93
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "g"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 89,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 90,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 91,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 92,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            6
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            9,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "f"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            6
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 92,
+                            "x": 7,
+                            "y": 6,
+                            "type": "b",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 132,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                6
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "f",
+                            "agent_id": "b",
+                            "invulnerability": 93
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            6
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 92,
+                            "x": 7,
+                            "y": 6,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 102
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 92,
+                            "x": 7,
+                            "y": 7,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 102
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 92,
+                            "x": 7,
+                            "y": 5,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 102
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                6
+                            ],
+                            "hp": 0,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 97
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 92,
+                            "x": 6,
+                            "y": 6,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 102
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 92,
+                            "x": 8,
+                            "y": 6,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 102
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            6
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 92,
+                            "x": 7,
+                            "y": 6,
+                            "type": "x",
+                            "owner_unit_id": "f",
+                            "agent_id": "b",
+                            "expires": 102
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 93,
+                "events": [
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                8
+                            ],
+                            "hp": -1,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "h",
+                            "agent_id": "b",
+                            "invulnerability": 98
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 94,
+                "events": [
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                5
+                            ],
+                            "hp": 0,
+                            "inventory": {
+                                "bombs": 2
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "f",
+                            "agent_id": "b",
+                            "invulnerability": 99
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "f"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 96,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            7
+                        ]
+                    }
+                ]
+            },
+            {
+                "tick": 97,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            8
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 98,
+                "events": [
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                6
+                            ],
+                            "hp": -1,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 103
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 99,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 100,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "right",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 101,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 102,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            5
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            6
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            6
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            6
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 103,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 104,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 105,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 106,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "e"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 106,
+                            "x": 7,
+                            "y": 11,
+                            "type": "b",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 146,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                11
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 92
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 106,
+                            "x": 8,
+                            "y": 10,
+                            "type": "b",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 146,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                8,
+                                10
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "e",
+                            "agent_id": "a",
+                            "invulnerability": 92
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 107,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 107,
+                            "x": 8,
+                            "y": 11,
+                            "type": "b",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 147,
+                            "hp": 1,
+                            "blast_diameter": 5
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                8,
+                                11
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 5,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 80
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 108,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 109,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 112,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "detonate",
+                            "coordinates": [
+                                7,
+                                11
+                            ],
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "detonate",
+                            "coordinates": [
+                                8,
+                                10
+                            ],
+                            "unit_id": "e"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 7,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 7,
+                            "y": 12,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 7,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 6,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                8,
+                                11
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 5,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 117
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            8,
+                            11
+                        ],
+                        "updated_entity": {
+                            "created": 107,
+                            "x": 8,
+                            "y": 11,
+                            "type": "b",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 147,
+                            "hp": 0,
+                            "blast_diameter": 5
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 8,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            8,
+                            10
+                        ],
+                        "updated_entity": {
+                            "created": 106,
+                            "x": 8,
+                            "y": 10,
+                            "type": "b",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 146,
+                            "hp": 0,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 8,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 8,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 8,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 7,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "e",
+                            "agent_id": "a",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            9,
+                            10
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 9,
+                            "y": 10,
+                            "type": "o",
+                            "hp": 2
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 7,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 122
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 112,
+                            "x": 6,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 122
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 113,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 114,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "d"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 114,
+                            "x": 7,
+                            "y": 11,
+                            "type": "b",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 154,
+                            "hp": 1,
+                            "blast_diameter": 5
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                11
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 5,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 117
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 114,
+                            "x": 7,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 124
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            12
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 114,
+                            "x": 7,
+                            "y": 12,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 124
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 114,
+                            "x": 7,
+                            "y": 13,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 124
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 114,
+                            "x": 7,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 124
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                7,
+                                9
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 1
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 119
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 114,
+                            "x": 7,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 124
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 114,
+                            "x": 6,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 124
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 114,
+                            "x": 8,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 124
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            11
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 114,
+                            "x": 7,
+                            "y": 11,
+                            "type": "x",
+                            "owner_unit_id": "d",
+                            "agent_id": "b",
+                            "expires": 124
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 115,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "down",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 116,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "b",
+                        "data": {
+                            "type": "move",
+                            "move": "left",
+                            "unit_id": "d"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 117,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "bomb",
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 117,
+                            "x": 6,
+                            "y": 9,
+                            "type": "b",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 157,
+                            "hp": 1,
+                            "blast_diameter": 3
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                9
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 119
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 122,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            10
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            8,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 123,
+                "events": [
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "detonate",
+                            "coordinates": [
+                                6,
+                                9
+                            ],
+                            "unit_id": "c"
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            6,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                9
+                            ],
+                            "hp": 0,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 128
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 123,
+                            "x": 6,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 133
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                6,
+                                10
+                            ],
+                            "hp": 0,
+                            "inventory": {
+                                "bombs": 0
+                            },
+                            "blast_diameter": 5,
+                            "unit_id": "d",
+                            "agent_id": "b",
+                            "invulnerability": 128
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 123,
+                            "x": 6,
+                            "y": 10,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 133
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 123,
+                            "x": 6,
+                            "y": 8,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 133
+                        }
+                    },
+                    {
+                        "type": "entity_state",
+                        "coordinates": [
+                            5,
+                            9
+                        ],
+                        "updated_entity": {
+                            "created": 0,
+                            "x": 5,
+                            "y": 9,
+                            "type": "w",
+                            "hp": 0
+                        }
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            5,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            9
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 123,
+                            "x": 7,
+                            "y": 9,
+                            "type": "x",
+                            "owner_unit_id": "c",
+                            "agent_id": "a",
+                            "expires": 133
+                        }
+                    },
+                    {
+                        "type": "unit",
+                        "agent_id": "a",
+                        "data": {
+                            "type": "move",
+                            "move": "up",
+                            "unit_id": "e"
+                        }
+                    }
+                ]
+            }
+        ],
+        "winning_agent_id": "a"
+    }
+}

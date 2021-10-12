@@ -1,0 +1,1507 @@
+{
+    "type": "endgame_state",
+    "payload": {
+        "initial_state": {
+            "agents": {
+                "a": {
+                    "agent_id": "a",
+                    "unit_ids": [
+                        "c",
+                        "e",
+                        "g"
+                    ]
+                },
+                "b": {
+                    "agent_id": "b",
+                    "unit_ids": [
+                        "d",
+                        "f",
+                        "h"
+                    ]
+                }
+            },
+            "unit_state": {
+                "c": {
+                    "coordinates": [
+                        0,
+                        14
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "c",
+                    "agent_id": "a",
+                    "invulnerability": 0
+                },
+                "d": {
+                    "coordinates": [
+                        14,
+                        14
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "d",
+                    "agent_id": "b",
+                    "invulnerability": 0
+                },
+                "e": {
+                    "coordinates": [
+                        12,
+                        0
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "e",
+                    "agent_id": "a",
+                    "invulnerability": 0
+                },
+                "f": {
+                    "coordinates": [
+                        2,
+                        0
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "f",
+                    "agent_id": "b",
+                    "invulnerability": 0
+                },
+                "g": {
+                    "coordinates": [
+                        2,
+                        14
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "g",
+                    "agent_id": "a",
+                    "invulnerability": 0
+                },
+                "h": {
+                    "coordinates": [
+                        12,
+                        14
+                    ],
+                    "hp": 3,
+                    "inventory": {
+                        "bombs": 3
+                    },
+                    "blast_diameter": 3,
+                    "unit_id": "h",
+                    "agent_id": "b",
+                    "invulnerability": 0
+                }
+            },
+            "entities": [
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 3,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 3,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 11,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 1,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 1,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 12,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 12,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 8,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 8,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 14,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 14,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 14,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 14,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 8,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 8,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 2,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 7,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 7,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 4,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 4,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 12,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 12,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 6,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 10,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 5,
+                    "type": "m"
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 11,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 11,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 10,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 10,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 0,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 0,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 12,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 12,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 11,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 11,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 9,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 0,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 14,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 13,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 13,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 12,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 12,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 10,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 10,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 3,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 3,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 6,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 6,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 13,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 13,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 0,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 0,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 5,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 5,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 0,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 0,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 7,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 1,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 5,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 5,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 12,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 12,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 4,
+                    "type": "w",
+                    "hp": 1
+                },
+                {
+                    "created": 0,
+                    "x": 5,
+                    "y": 2,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 9,
+                    "y": 2,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 6,
+                    "y": 10,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 8,
+                    "y": 10,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 3,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 3,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 11,
+                    "y": 3,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 3,
+                    "y": 3,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 13,
+                    "y": 9,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 1,
+                    "y": 9,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 2,
+                    "y": 7,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 12,
+                    "y": 7,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 10,
+                    "y": 6,
+                    "type": "o",
+                    "hp": 3
+                },
+                {
+                    "created": 0,
+                    "x": 4,
+                    "y": 6,
+                    "type": "o",
+                    "hp": 3
+                }
+            ],
+            "world": {
+                "width": 15,
+                "height": 15
+            },
+            "tick": 0,
+            "config": {
+                "tick_rate_hz": 10,
+                "game_duration_ticks": 300,
+                "fire_spawn_interval_ticks": 2
+            }
+        },
+        "history": [
+            {
+                "tick": 33,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 33,
+                            "x": 7,
+                            "y": 9,
+                            "type": "a",
+                            "expires": 73,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 71,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 71,
+                            "x": 7,
+                            "y": 1,
+                            "type": "bp",
+                            "expires": 111,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 73,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            9
+                        ]
+                    }
+                ]
+            },
+            {
+                "tick": 80,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 80,
+                            "x": 7,
+                            "y": 12,
+                            "type": "a",
+                            "expires": 120,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 111,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            1
+                        ]
+                    }
+                ]
+            },
+            {
+                "tick": 120,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            12
+                        ]
+                    }
+                ]
+            },
+            {
+                "tick": 160,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 160,
+                            "x": 7,
+                            "y": 8,
+                            "type": "bp",
+                            "expires": 200,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 161,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 161,
+                            "x": 7,
+                            "y": 7,
+                            "type": "a",
+                            "expires": 201,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 200,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            8
+                        ]
+                    }
+                ]
+            },
+            {
+                "tick": 201,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            7
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 201,
+                            "x": 3,
+                            "y": 7,
+                            "type": "a",
+                            "expires": 241,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 204,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 204,
+                            "x": 7,
+                            "y": 2,
+                            "type": "a",
+                            "expires": 244,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 241,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            3,
+                            7
+                        ]
+                    }
+                ]
+            },
+            {
+                "tick": 244,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            7,
+                            2
+                        ]
+                    }
+                ]
+            },
+            {
+                "tick": 277,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 277,
+                            "x": 11,
+                            "y": 0,
+                            "type": "a",
+                            "expires": 317,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 300,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 300,
+                            "x": 0,
+                            "y": 14,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                0,
+                                14
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 305
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 302,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            14,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 302,
+                            "x": 14,
+                            "y": 0,
+                            "type": "x"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 304,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 304,
+                            "x": 1,
+                            "y": 14,
+                            "type": "x"
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 306,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 306,
+                            "x": 13,
+                            "y": 0,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                0,
+                                14
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 311
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 308,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 308,
+                            "x": 2,
+                            "y": 14,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                2,
+                                14
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 313
+                        }
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 308,
+                            "x": 9,
+                            "y": 1,
+                            "type": "a",
+                            "expires": 348,
+                            "hp": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 310,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 310,
+                            "x": 12,
+                            "y": 0,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                12,
+                                0
+                            ],
+                            "hp": 2,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "e",
+                            "agent_id": "a",
+                            "invulnerability": 315
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 312,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 312,
+                            "x": 3,
+                            "y": 14,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                0,
+                                14
+                            ],
+                            "hp": 0,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 317
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 314,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            11,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 314,
+                            "x": 11,
+                            "y": 0,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                2,
+                                14
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 319
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 316,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            4,
+                            14
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 316,
+                            "x": 4,
+                            "y": 14,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                12,
+                                0
+                            ],
+                            "hp": 1,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "e",
+                            "agent_id": "a",
+                            "invulnerability": 321
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 318,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            10,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 318,
+                            "x": 10,
+                            "y": 0,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                0,
+                                14
+                            ],
+                            "hp": -1,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "c",
+                            "agent_id": "a",
+                            "invulnerability": 323
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 320,
+                "events": [
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 320,
+                            "x": 5,
+                            "y": 14,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                2,
+                                14
+                            ],
+                            "hp": 0,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "g",
+                            "agent_id": "a",
+                            "invulnerability": 325
+                        }
+                    }
+                ]
+            },
+            {
+                "tick": 322,
+                "events": [
+                    {
+                        "type": "entity_expired",
+                        "data": [
+                            9,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "entity_spawned",
+                        "data": {
+                            "created": 322,
+                            "x": 9,
+                            "y": 0,
+                            "type": "x"
+                        }
+                    },
+                    {
+                        "type": "unit_state",
+                        "data": {
+                            "coordinates": [
+                                12,
+                                0
+                            ],
+                            "hp": 0,
+                            "inventory": {
+                                "bombs": 3
+                            },
+                            "blast_diameter": 3,
+                            "unit_id": "e",
+                            "agent_id": "a",
+                            "invulnerability": 327
+                        }
+                    }
+                ]
+            }
+        ],
+        "winning_agent_id": "b"
+    }
+}
