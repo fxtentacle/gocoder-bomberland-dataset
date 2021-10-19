@@ -1,15 +1,31 @@
-# fxtentacle's GoCoder Bomberland Dataset
+# fxtentacle's GoCoder Bomberland Datasets
 
+This dataset contains replays for 
+https://www.gocoder.one/bomberland
+generated with server version 1068.
+
+See below for an explanation of the different strategies.
+
+### replays-baseline-baseline
 This dataset contains 
 5,267 replays == 3,727,239 timesteps 
 (x6 units)
-for 
-https://www.gocoder.one/bomberland
-generated with server version 1068.
+for the baseline strategy playing against itself.
 The games break down as:
 * A won: 2474 = 46.9%
 * B won: 2511 = 47.6%
 * Draw: 282 = 5.5%
+
+### replays-runaway-predator
+This dataset contains 
+3,832 replays == 2,790,616 timesteps 
+(x6 units)
+for team A using the runaway strategy
+being chased by team B using the predator strategy.
+Surprisingly, runaway wins more often:
+* A won: 2162 = 56.4%
+* B won: 1556 = 40.6%
+* Draw: 114 = 3.0%
 
 ## How is this useful?
 
@@ -27,9 +43,13 @@ and then only later introducing self-play.
 
 I let a hand-crafted baseline agent play against itself.
 The agent is based on A* path-finding with the following notable score rules:
+
+#### all
 * Treat team-mates and all enemies except for the closest one 
   as immovable wood blocks to reduce complexity
 * Penalize fields that would covered by enemy bombs if they exploded
+
+#### baseline
 * Penalize fields that the closest enemy can reach before us
 * Penalize walking into small areas with only one exit, to avoid getting locked in
 * Promote running towards enemies, bumping into them and blocking their path
@@ -37,6 +57,20 @@ The agent is based on A* path-finding with the following notable score rules:
   because it'll be reached by the endgame fire last
 * Collect whatever pick-up you can, as long as the score for its path is positive
 * When you need to retreat, block the enemy from following by placing a bomb
+
+#### runaway
+* If there is no path to the center, clear one
+* Run away from enemies and their bombs
+* Penalize walking into small areas with only one exit, to avoid getting locked in
+* Collect whatever pick-up you can, as long as it's safe to reach
+
+#### predator
+* Promote running towards enemies and bumping into them
+* Try to restrict the enemy's movement as much as possible
+* If an enemy is locked in, place bombs to kill them
+* Collect whatever pick-up you can, as long as the score for its path is positive
+* When you need to retreat, block the enemy from following by placing a bomb
+
 
 For simplicity, this agent is completely stateless, 
 which means it might start to run towards a pickup 
